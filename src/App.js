@@ -7,8 +7,8 @@ import {
   Route,
 } from "react-router-dom";
 import Navbar from "./components/Navbar folder";
-import bird1 from "./components/pages/bird1";
-import bird2 from "./components/pages/bird2";
+import Bird1 from "./components/pages/bird1";
+import Bird2 from "./components/pages/bird2";
 
 
 function App() {
@@ -18,9 +18,9 @@ function App() {
        <Router>
             <Navbar />
               <Routes>
-                <Route exact path='/' element={<Home />} />
-                <Route path='/bird1' element={<bird1 />} />
-                <Route path='/bird2' element={<bird2 />} />
+                <Route path='/' element={<Home />} />
+                <Route path='/bird1' element={<Bird1 />} />
+                <Route path='/bird2' element={<Bird2 />} />
                 
             </Routes>
         </Router>

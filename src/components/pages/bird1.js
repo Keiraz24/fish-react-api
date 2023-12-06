@@ -1,6 +1,6 @@
 import React from "react";
  
-const bird1 = () => {
+const Bird1 = () => {
     return (
         <div>
             <h1>
@@ -10,4 +10,4 @@ const bird1 = () => {
     );
 };
  
-export default bird1;
+export default Bird1;
