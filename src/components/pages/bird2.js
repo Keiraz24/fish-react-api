@@ -30,9 +30,12 @@ const Bird2 = () => {
             let thing2Data=res.data[0]['sciName'];
             const Dead=[];
             let thing3Data=res.data[0]['howMany'];
-            for(x=0; x=thing3Data.length; x++){
-                Dead.push(1);
+            // for(var x=0; x<5; x++){
+
+           for(var x=0; x<thing3Data; x++){
+               Dead.push("1");
             }
+            console.log(Dead);
             setData({Thing:thingData,
             numberofDead:Dead})
             setmoreData({Thingtwo:thing2Data})
@@ -43,11 +46,17 @@ const Bird2 = () => {
     },[])
      return (
         <div>
-             {for(x=0; x=thing3Data.length; x++){
+             {Data.numberofDead.map(element=>{
                 return(
+                    <>
+                    <ul>
+                    <img src="https://images.app.goo.gl/Z333cDZDsFCFdvweA"/>
+                    </ul>  
+                    </>
+                );
 
-                )
-             }}
+             })}
+            
             <h1>
             {Data.Thing}
             </h1>
