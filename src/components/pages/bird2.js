@@ -2,7 +2,7 @@
 import axios from 'axios';
 import React, {useEffect, useState} from 'react';
 
- 
+
 const Bird2 = () => {
 
     const [Data, setData]=useState({
@@ -46,17 +46,20 @@ const Bird2 = () => {
     },[])
      return (
         <div>
+            <>
              {Data.numberofDead.map(element=>{
                 return(
                     <>
-                    <ul>
-                    <img src="https://images.app.goo.gl/Z333cDZDsFCFdvweA"/>
-                    </ul>  
+                    {/* <img src="/deadbird.jpg" alt="deadbird"/> */}
+
+                    
+                    <img src="https://lh3.google.com/u/0/d/1qT1QJWFU8uT0Nv4P9jiNC7ZfIWaEz7Wq" alt="deadbird" width="128" height="128"/>
+                      
                     </>
                 );
 
              })}
-            
+</>
             <h1>
             {Data.Thing}
             </h1>
@@ -71,5 +74,5 @@ const Bird2 = () => {
         </div>
     );
 };
- 
+ //for the white-tailed eagle
 export default Bird2;

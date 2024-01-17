@@ -10,7 +10,7 @@ import Navbar from "./components/Navbar folder";
 import Bird1 from "./components/pages/bird1";
 import Bird2 from "./components/pages/bird2";
 
-
+ 
 function App() {
   return (
     <div className="App">

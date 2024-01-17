@@ -3,10 +3,18 @@ import React from 'react';
 
 
 const Home=()=> {
-    return(<></>)
+    return(<>
+    
+   
+  <h1>
+    WELCOME TO BIRD LAND
+  </h1>
+
+    </>)
 
     
 }
+
 export default Home;
     
 
