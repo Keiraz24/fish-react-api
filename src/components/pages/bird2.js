@@ -64,7 +64,7 @@ const Bird2 = () => {
                 Bird2
             </title>
             <h1>
-            {Data.Thing}
+            {Data.Thing} bird 
             </h1>
             <p>
             {moreData.Thingtwo}

@@ -61,7 +61,7 @@ console.log("how many", res.data[1]['howMany']);
                 Bird1
             </title>
             <h1>
-               {Data.Thing}
+               {Data.Thing} bird
             </h1>
             <p>
                 {moreData.Thingtwo}
