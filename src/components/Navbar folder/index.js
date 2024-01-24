@@ -20,5 +20,6 @@ const Navbar = () => {
         </>
     );
 };
+//set nav bar
  
 export default Navbar;

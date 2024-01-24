@@ -1,14 +1,22 @@
 
 import React from 'react';
-
+import styles from './Home.css';
 
 const Home=()=> {
-    return(<>
     
+    return(<>
    
+
+    
+   <title>
+    Bird
+   </title>
   <h1>
     WELCOME TO BIRD LAND
   </h1>
+  <p className={styles.p}>
+    be excited
+  </p>
 
     </>)
 

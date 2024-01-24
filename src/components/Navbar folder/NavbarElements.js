@@ -37,6 +37,7 @@ export const Bars = styled(FaBars)`
         cursor: pointer;
     }
 `;
+//nav bar styling elements
  
 export const NavMenu = styled.div`
     display: flex;
@@ -50,4 +51,5 @@ white-space: nowrap; */
     @media screen and (max-width: 768px) {
         display: none;
     }
+    
 `;

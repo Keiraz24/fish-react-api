@@ -10,4 +10,5 @@ const reportWebVitals = onPerfEntry => {
   }
 };
 
+/*app stuff--things i don't touch*/
 export default reportWebVitals;

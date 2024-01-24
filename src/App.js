@@ -27,5 +27,5 @@ function App() {
     </div>
   );
 }
-
+//shows the nav bar 
 export default App;

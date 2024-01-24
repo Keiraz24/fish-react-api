@@ -57,7 +57,9 @@ console.log("how many", res.data[1]['howMany']);
 
          })}
 </>
-        
+<title>
+                Bird1
+            </title>
             <h1>
                {Data.Thing}
             </h1>
@@ -72,5 +74,5 @@ console.log("how many", res.data[1]['howMany']);
         </div>
     );
 };
- //for 
+ //bird 1 web page
 export default Bird1;

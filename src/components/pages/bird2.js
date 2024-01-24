@@ -60,6 +60,9 @@ const Bird2 = () => {
 
              })}
 </>
+            <title>
+                Bird2
+            </title>
             <h1>
             {Data.Thing}
             </h1>
